@@ -1,12 +1,11 @@
-//Augumented Operation 
-var a = 3;
-var b = 8;
-var c = 12
+//Declaring STRINGs
+var firstName = "Muhammad";
+var secondName = 'Ahmad';
 
-a = a + 2;
-b = b - 6;
-c = c / 2;
-//We also write the code is
-a += 2;
-b -= 6;
-c /= 2;
+//Qoutation within String
+var mystr = "I am \"Muhammad Ahmad\" Learing \"JavaScript\"";
+//OR using with single quotes doesn't need Slashes
+var mystr1 = 'I am "Ahmad" Learing "JavaScript"';
+
+
+console.log(mystr1)
