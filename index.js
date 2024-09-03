@@ -1,8 +1,5 @@
-var a = 2;
-var b = 4;
-var c = "I am a";
-
-a = a + 1;
-b = b + 2;
-c = c + " string!"
-console.log(a,b,c)
+var sum = 2 + 3;
+var diff = 99 - 33;
+var prod = 14 * 2.9;
+var divid = 78 / 6;
+console.log([sum, diff, prod, divid].join('\n'))
